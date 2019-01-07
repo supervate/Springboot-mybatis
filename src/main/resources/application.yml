@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.31.221:3306/mybatis?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  http:
+    encoding:
+      force-request: true
+      force-response: true
+      charset: utf-8
+      enabled: true
+      force: true
+debug: true
